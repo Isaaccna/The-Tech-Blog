@@ -24,6 +24,9 @@ button a {
 header {
     padding: 20px 35px;
     background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
    
   }
 
@@ -32,7 +35,6 @@ header {
     font-size: 36px;
     color: var(--secondary-color);
     
-    text-align: center;
    }
 
   header a {
@@ -51,7 +53,7 @@ header nav  {
 }
 header nav a {
     padding: 10px 15px;
-    font-size: 2vw;
+    font-size: 1.5vw;
     
 }
 .form-div {
