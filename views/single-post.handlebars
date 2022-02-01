@@ -4,6 +4,7 @@
 {{> comments post.comments}}
 
 {{#if loggedIn}}
+<div class="form-div">
 <form class="comment-form">
   <div>
     <textarea name="comment-body"></textarea>
@@ -11,9 +12,10 @@
 
   <div>
     <button type="submit">add comment</button>
-    <button type="button" class="upvote-btn">upvote</button>
+
   </div>
 </form>
+</div>
 {{/if}}
 
 {{#if loggedIn}}

@@ -1,3 +1,178 @@
+* {
+    box-sizing: border-box;
+  }
+  :root {
+    --primary-color:rgba(0, 0, 0, 0.925) ;
+    --secondary-color: rgb(171, 229, 231);
+    --tertiary-color: rgb(119, 119, 235);
+
+  }
+
 .add-form {
     display: none;
 }
+ul li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+button a {
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px 35px;
+    background-color: var(--primary-color);
+   
+  }
+
+  header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--secondary-color);
+    
+    text-align: center;
+   }
+
+  header a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+header nav  {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    color: var(--secondary-color);
+}
+header nav a {
+    padding: 10px 15px;
+    font-size: 2vw;
+    
+}
+.form-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+h2 {
+  color: var(--secondary-color);
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card {
+  margin: 10px 0;
+  width: 40%;
+}
+.card-header {
+  background-color: var(--primary-color);
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+ 
+}
+a h3 {
+    color: var(--secondary-color);
+}
+p.card-text {
+  white-space: pre-wrap;
+} 
+
+form {
+    color:var(--secondary-color);
+    background-color: var(--primary-color);
+    padding: 20px;
+    border: 3px solid;
+    width: 40%;
+    margin:3.5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+   
+}
+ h3 {
+    font-size: 24px;
+    margin: 5px;
+}
+
+small {
+  color: dimgrey;
+}
+form input {
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-color: rgba(255,255,255, 0.75)
+}
+form input:focus {
+  background-color: rgba(255,255,255, 1);
+  outline: none;
+}
+form label {
+    margin: 0 5px;
+  }
+
+
+  form textarea {
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-color: rgba(255,255,255, 0.75);
+  }
+  form textarea:focus {
+    background-color: rgba(255,255,255, 1);
+    outline: none
+  }
+button {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+#newpost {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-size: 30px;
+    padding: 15px 25px;
+}
+
+
+footer {
+  background-color: var(--primary-color);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 0px;
+  height: 50px;
+}
+footer h3 {
+    color: white;
+    font-weight: bold;
+    margin-left: 20px;
+    width: 100%;
+
+}
+footer ul li a {
+    text-decoration: none;
+    margin-right: 50px;
+    margin-left: 20px;
+    color: white;
+    font-size: larger;
+}
+    
