@@ -11,13 +11,22 @@
 
 
   ## Usage
-   - Run "node index"
-   - Answer the prompted questions 
-   - The README file will be generated and located in the "readme" folder.
 
-   [Walkthrough video](https://watch.screencastify.com/v/YLlMBwhEMnBo2H6yMMx7)
+   [Walkthrough video](https://watch.screencastify.com/v/L2P3pSWAHy3b3PQc7dlz)
 
-   <img src="assets/team-profile-page.png" alt="webpage" width="200px" />
+   <img src="public/images/homepage.png" alt="homepage" width="200px" />
+
+   <img src="public/images/dashboard-page.png" alt="dashboard page" width="200px" />
+   
+   <img src="public/images/loginpage.png" alt="loginpage" width="200px" />
+
+  <img src="public/images/signup-form.png" alt="signup page" width="200px" />
+
+  <img src="public/images/newpost.png" alt="newpost form page" width="200px" />
+
+  <img src="public/images/editpost-page.png" alt="edit post page" width="200px" />
+
+  <img src="public/images/single-post.png" alt="single post page" width="200px" />
 
   ## Contributing
    Isaaccna
