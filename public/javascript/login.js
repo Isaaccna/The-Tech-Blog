@@ -17,7 +17,7 @@ async function loginFormHandler(event) {
       if (response.ok) {
         document.location.replace('/dashboard');
       } else {
-        alert(response.statusText);
+        alert("Invalid credentials");
       }
     }
   }
@@ -43,7 +43,7 @@ async function loginFormHandler(event) {
 if (response.ok) {
   document.location.replace('/dashboard');
   } else {
-    alert(response.statusText);
+    alert("Email or Username already in use e/or password must cointain less than 4 characters ");
   }
 }
 }
