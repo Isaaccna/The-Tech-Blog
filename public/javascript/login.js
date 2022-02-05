@@ -58,8 +58,7 @@ const signupButton = document.querySelector('#signup');
     }
 
     loginButton.onclick = function(){
-      signupForm.style.display = "none";
-      loginForm.style.display = "display";
+      document.location.replace('/login');
      }
 
     
