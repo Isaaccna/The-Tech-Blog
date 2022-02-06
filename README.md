@@ -12,6 +12,8 @@
 
   ## Usage
 
+  [Heroku](https://cryptic-waters-04412.herokuapp.com/)
+
    [Walkthrough video](https://watch.screencastify.com/v/L2P3pSWAHy3b3PQc7dlz)
 
    <img src="public/images/homepage.png" alt="homepage" width="200px" />
